@@ -4,7 +4,8 @@ An initial implementation of the subscriber profiles using R6 approach of R lang
 
 According to some benchmarks, R6 provides the most flexible way of data structures implementation using object-oriented techniques. Among those of R language (S4, R5, R6), it's R6 objects take roughly as much memory as the plain S3 objects (for simplicity, plain R functions), though they call for some tweaking too.
 These data structures and functions have been wrapped into a plain R package. As a result, a number of things intended to make the developer life to be easier (uncluding that boring setwd(...), install.packages(...), library(...) routine), are implemented right out of the box.
-###Please, take notice I have not included the original data because of privacy concerns.
+
+##Please, take notice I have not included the original data because of privacy concerns.
 
 Originally, this package was implemented to cover needs of a cellular provider. So the subscriber profile includes the following fields (self-explainable):
 ## Initial info
